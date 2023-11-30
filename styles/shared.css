@@ -1,0 +1,30 @@
+body{
+	text-align:center;
+	background-color:rgb(245, 200, 154);
+	font-family:sans-serif;
+	margin:50px;
+}
+
+h1{
+	font-family:'PT Serif', sans-serif; 
+	color:rgb(100,0,0);
+	font-size:48px;
+}
+			
+p{
+	font-size:30px;
+	font-family:'Oswald', sans-serif;
+	margin:10px 0;
+	color:rgb(212, 55, 44);
+}
+			
+a{
+	color:#264494;
+	text-decoration: none;
+}
+		
+a:hover{
+	text-decoration: underline;
+}
+
+

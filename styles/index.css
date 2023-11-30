@@ -1,0 +1,45 @@
+main{
+	width:800px;
+	margin:200px auto 72px auto;
+	padding: 16px;
+	background-color:rgb(223, 136,124);
+	border-radius:6px;
+	font-family:'PT Serif', sans-serif; 
+	border: thick solid rgb(0,0,0);
+	box-shadow:1px 2px 8px rgba(0,0,0,0.8);
+}
+
+img{
+	width:200px;
+	height:200px;
+	border-radius:100px;
+	border: thick solid rgb(0,0,0);
+	margin-top:-126px;
+}
+
+span{
+	color:rgb(66,2,2);
+}
+
+#button{
+	font-weight:bold;
+	font-family:'PT Serif', sans-serif;
+	color:rgb(255,0,0);
+	/*box-shadow: 1px 1px 1px rgba(0,0,0,1);
+	display:inline;
+	padding:6px;
+	background-color:rgb(227, 167, 107);*/
+}
+
+#date{
+	font-family:'PT Serif', sans-serif; 
+	color:rgb(100,0,0);
+}
+
+#quote{
+	color:rgb(204, 112, 18);
+}
+
+#todays-challenge{
+	font-size:50px;
+}

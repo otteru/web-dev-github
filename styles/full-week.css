@@ -1,0 +1,69 @@
+header{
+	/*header 박스에 header 요소들이 다 들어가게 조정해야 함*/
+	margin-bottom:64px;
+}
+
+h1{
+	margin:0px;
+}
+
+
+ol{
+	list-style:none;
+	width: 500px;
+	margin: 50px auto 0 auto;
+	padding: 0;
+}
+
+li{
+	padding: 16px;
+	margin:32px;
+	background-color:rgb(223, 136,124);
+	border-radius:6px;
+	font-family:'PT Serif', sans-serif; 
+	box-shadow: 2px 2px 3px rgba(0,0,0,2);
+}
+
+#discription{
+	margin:12px 0;
+}
+
+/* 
+a 태그는 inline 태그 
+- inline 태그는 margin을 옆으로만 넣을 수 있고 위 아래로는 넣어도 변경 x
+
+
+*/
+a{
+	padding:12px 48px;
+	border: 1px solid rgb(167,1,78);
+	background-color:rgb(167,1,78);
+	color:white;
+	border-radius:4px;
+	font-size:24px;
+	font-family:'Oswald', sans-serif;
+	display:inline-block; /* inline-block을 하면 margin을 위 아래로 넣을 수 있게 됨*/
+}
+
+a:hover{
+	text-decoration: none;
+	background-color:rgb(180,12,90);
+}
+
+/* header p {
+	margin-bottom:36px;
+}
+ */
+main p {
+	margin:10px 0;
+	color:rgb(212, 55, 44);
+}
+
+.highlight-goal{
+	background-color:rgb(217, 102, 87);
+}
+
+h2{
+	margin:10px 0;
+}
+
